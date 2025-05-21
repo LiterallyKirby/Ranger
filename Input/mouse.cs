@@ -47,9 +47,6 @@ namespace Ranger
                 // Clamp pitch so you can't look too far up/down
                 pitch = Math.Clamp(pitch, -89f, 89f);
 
-                // Optional: normalize yaw to 0-360 or -180 to 180
-                // yaw %= 360f;
-
                 Console.WriteLine($"Yaw: {yaw}, Pitch: {pitch}");
             }
         }
